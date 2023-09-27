@@ -38,7 +38,6 @@ header{
     height: 700px;
     object-fit: contain;
 }
-
 .portada h1{
     font-size: 3.125rem;
     font-family: 'Averia Serif Libre', cursive;
@@ -49,7 +48,6 @@ header{
     order: 2;
     text-align: center;
 }
-
 .portada button{
     font-size: 1.25rem;
     font-family: 'PT Sans', sans-serif;
@@ -62,7 +60,9 @@ header{
     text-align: center;
     order: 3;
 }
-
+.portada button:hover{
+    box-shadow: 0px 0px .625rem #2D4262;
+}
 .categoria1{
     width: 100%;
     height: 600px;
@@ -90,6 +90,9 @@ header{
     grid-row-start: 8;
     grid-row-end: 9;
     order: 3;
+}
+.categoria1 button:hover{
+    box-shadow: 0px 0px .625rem #2D4262;
 }
 .categoria1a img{
     width: 100%;
@@ -129,6 +132,9 @@ header{
     grid-row-start: 8;
     grid-row-end: 9;
     order: 3;
+}
+.categoria2 button:hover{
+    box-shadow: 0px 0px .625rem #2D4262;
 }
 .categoria2a{
     font-family: 'PT Sans', sans-serif;
@@ -179,6 +185,9 @@ header{
     grid-row-end: 9;
     order: 3;
 }
+.categoria3 button:hover{
+    box-shadow: 0px 0px .625rem #2D4262;
+}
 .categoria3a{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.25rem;
@@ -227,6 +236,9 @@ header{
     grid-row-start: 8;
     grid-row-end: 9;
     order: 3;
+}
+.categoria4 button:hover{
+    box-shadow: 0px 0px .625rem #2D4262;
 }
 .categoria4a{
     font-family: 'PT Sans', sans-serif;
@@ -277,6 +289,15 @@ footer{
     font-family: 'PT Sans', sans-serif;
     flex-direction: row;
 }
+.redes{
+    line-height: 2.5;
+}
+.redes h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
 .redes li{
     display: inline;
     padding-right: 20px;
@@ -285,13 +306,39 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.ayuda h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
 .ayuda li{
     list-style: none;
+    line-height: 2.5;
+}
+.ayuda li a{
+    color: black;
+    padding-left: .9375rem;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+.info h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
 }
 .info li{
     list-style: none;
+    line-height: 2.5;
 }
-
+.info li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
 .sucursales{
     padding: 3.125rem;
 }
@@ -310,7 +357,25 @@ footer{
     font-size: 1.25rem
 }
 
-
+.navtop{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 50px;
+    gap: 1.875rem;
+    justify-content: flex-start;
+    padding-left: 1.25rem;
+    align-items: center;
+}
+.navtop li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+}
+.navtop li a:hover{
+    text-shadow: 0px 0px .625rem aliceblue;
+}
 .remerascategoria{
     width: 100%;
     height: 9rem;
@@ -338,8 +403,10 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding-top: 1.875rem;
+    padding-top: 70px;
+    padding-bottom: 70px;
     text-align: center;
+    gap: 1.875rem;
 }
 .artremeras button:hover{
     list-style: none;
