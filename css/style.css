@@ -16,19 +16,9 @@ header{
     width: auto;
 }
 
-.navtop div li{
-    display: inline;
+.navbar{
+    background-color: #2D4262;
 }
-
-.navtop1{
-    padding-left: 1%;
-    padding-top: 1%;
-}
-
-.navtop2{
-    display: inline;
-}
-
 .portada{
     background-color: #E1E2E0;
 }
