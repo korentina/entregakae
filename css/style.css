@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=PT+Sans&display=swap');
+
+/* font-family: 'Averia Serif Libre', cursive;
+font-family: 'PT Sans', sans-serif;
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* colores Azul=2D4262 Crema=FFFAF5 */
+
+header{
+    background-color: #2D4262;
+    width: auto;
+}
+
+.navtop div li{
+    display: inline;
+}
+
+.navtop1{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.navtop2{
+    display: inline;
+}
+
+.portada{
+    background-color: #E1E2E0;
+}
+.portada h1{
+    font-size: 3.125rem;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.portada button{
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+.categoria1a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+    list-style: none;
+}
+.categoria1b{
+    list-style: none;
+}
+.categoria2a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+    list-style: none;
+}
+.categoria2b{
+    list-style: none;
+}
+.categoria3a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+    list-style: none;
+}
+.categoria3b{
+    list-style: none;
+}
+.categoria4a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+    list-style: none;
+}
+.categoria4b{
+    list-style: none;
+}
+footer{
+    height: 20rem;
+    background-color: #2D4262
+    
+}
+
+.navbottom{
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.navbottom div{
+    display: inline-block;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.redes li{
+    display: inline;
+}
+.ayuda li{
+    list-style: none;
+}
+.info li{
+    list-style: none;
+}
+.sucursales{
+    padding: 3.125rem;
+}
+.campana{
+    padding-top: 5%;
+}
+.nosotros h1{
+    padding-top: 2%;
+    padding-left: 2%;
+    font-size: 1.875rem;
+}
+.nosotros p{
+    width: 150rem;
+    text-align: justify;
+    padding: 5%;
+    font-size: 1.25rem
+}
+
+
+.remerascategoria li{
+    display: inline-block;
+    width: 7.0625rem;
+    height: 9rem;
+}
+
+.remerascategoria li img{
+    width: 100%;
+}
+.artremeras div li{
+    width: 19.5rem;
+    height: 468px;
+}
+
+.artremeras div li img{
+    width: 100%;
+}
+
+.consultas{
+    padding: 5%;
+}
+
+.consultas h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.875rem;
+    text-decoration: underline;
+}
+
+.consultas p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.whatsapp{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.whatsapp img{
+    width: 100%;
+}
+.mail{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.mail img{
+    width: 100%;
+}
+
+.formulario-de-consulta{
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+
+}
+.formulario-de-consulta input{
+    background-color: #D9D9D9;
+    display: list-item;
+    width: 31.25rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: .9375rem;
+
+}
+.formulario-de-consulta textarea{
+    background-color: #D9D9D9;
+    width: 31.25rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: .9375rem;
+
+}
+
+.nosotros h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.875rem;
+    text-decoration: underline;
+}
+
+.nosotros p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.sucursales h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.875rem;
+    text-decoration: underline;
+}
+
+.aranguren h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5625rem;
+}
+.aranguren h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+.campana h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5625rem;
+}
+.campana h3{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.aranguren li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+.campana li{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
