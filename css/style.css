@@ -273,67 +273,63 @@ font-family: 'PT Sans', sans-serif;
 .whatsapp img{
     width: 100%;
 }
-footer{
-    height: 20rem;
-    background-color: #2D4262;
-}
-.navbottom{
+.navbottomI{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     padding: 30px;
 }
-.navbottom div{
+.navbottomI div{
     font-family: 'PT Sans', sans-serif;
     flex-direction: row;
 }
-.redes{
+.redesI{
     line-height: 2.5;
 }
-.redes h2{
+.redesI h2{
     font-family: 'PT Sans', sans-serif;
     color: black;
     font-size: 1.875rem;
     font-weight: bold;
 }
-.redes li{
+.redesI li{
     display: inline;
-    padding-right: 20px;
+    padding-right: 30px;
 }
-.ayuda{
+.ayudaI{
     display: flex;
     flex-direction: column;
 }
-.ayuda h2{
+.ayudaI h2{
     font-family: 'PT Sans', sans-serif;
     color: black;
     font-size: 1.875rem;
     font-weight: bold;
 }
-.ayuda li{
+.ayudaI li{
     list-style: none;
     line-height: 2.5;
 }
-.ayuda li a{
+.ayudaI li a{
     color: black;
-    padding-left: .9375rem;
+    padding-left: 27px;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
-.info h2{
+.infoI h2{
     font-family: 'PT Sans', sans-serif;
     color: black;
     font-size: 1.875rem;
     font-weight: bold;
 }
-.info li{
+.infoI li{
     list-style: none;
     line-height: 2.5;
 }
-.info li a{
+.infoI li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: black;
     font-family: 'PT Sans', sans-serif;
 }
@@ -383,6 +379,70 @@ footer{
     font-family: 'PT Sans', sans-serif;
     font-size: 1.25rem;
 }
+footer{
+    height: 20rem;
+    background-color: #2D4262;
+}
+.navbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px;
+}
+.navbottom div{
+    font-family: 'PT Sans', sans-serif;
+    flex-direction: row;
+}
+.redes{
+    line-height: 2.5;
+}
+.redes h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+.redes li{
+    display: inline;
+    padding-right: 20px;
+}
+.ayuda{
+    display: flex;
+    flex-direction: column;
+}
+.ayuda h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+.ayuda li{
+    list-style: none;
+    line-height: 2.5;
+}
+.ayuda li a{
+    color: black;
+    padding-left: 27px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+.info h2{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+.info li{
+    list-style: none;
+    line-height: 2.5;
+}
+.info li a{
+    text-decoration: none;
+    font-size: 1.0625rem;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
 
 .nosotros h1{
     padding-top: 2%;
@@ -424,7 +484,7 @@ header{
 .navtop li a{
     color: aliceblue;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-family: 'PT Sans', sans-serif;
 }
 .navtop li a:hover{
@@ -434,25 +494,47 @@ header{
     width: 100%;
     height: 200px;
     display:grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     text-align: center;
     justify-content: center;
     align-items: center;
     gap: .625rem;
 }
-
 .remerascategoria li{
     list-style: none;
     gap: 20px;
     width: 100%;
-    height: 200px;
+    height: 100px;
+}
+.vertodo{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.mangacorta{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.mangalarga{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.bordado{
+    grid-column-start: 6;
+    grid-column-end: 7,
+}
+.estampado{
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.liso{
+    grid-column-start: 8;
+    grid-column-end: 9;
 }
 .remerascategoria li img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    padding-top: 20px;
+    border-radius: 70%;
 }
 .remerascategoria li img:hover{
     box-shadow: 0px 0px .625rem #2D4262; 
@@ -460,7 +542,7 @@ header{
 .artremeras {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     padding-top: 70px;
     padding-bottom: 70px;
     text-align: center;
@@ -475,9 +557,8 @@ header{
 }
 .artremeras div li img{
     width: 100%;
-    height: 468px;
+    height: 21.875rem;
     object-fit: contain;
-
 }
 
 .consultas{
@@ -602,23 +683,34 @@ header{
     .categoria4b li img{
         height: 225px;
     }
-    footer{
-        height: 15.625rem;
+    .navbottomI{
+        padding-top: 20px;
+        padding-left: 0;
     }
-    .redes h2{
+    .redesI h2{
         font-size: 1.5625rem;
     }
-    .ayuda h2{
+    .redesI li{
+        padding-right: 20px;
+    }
+    .ayudaI h2{
         font-size: 1.5625rem;
     }
-    .ayuda li{
+    .ayudaI li{
         line-height: 2;
     }
-    .info h2{
+    .ayudaI li a{
+        padding-left: 0px;
+        font-size: 16px;
+    }
+    .infoI h2{
         font-size: 1.5625rem;
     }
-    .info li{
+    .infoI li{
         line-height: 2;
+    }
+    .infoI li a{
+        font-size: 16px;
     }
 }
 
@@ -735,25 +827,159 @@ header{
         display: none;
     }
     footer{
-        height: 200px;
+        height: 15.625rem;
+    }
+    .navbottomI{
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .redesI{
+        padding-right: 30px;
+    }
+    .redesI h2{
+        font-size: 1.125rem;
+    }
+    .redesI li{
+        height: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .redesI img{
+        width: 20px;
+        height: 20px;
+    }
+    .ayudaI h2{
+        font-size: 1.125rem;
+    }
+    .ayudaI li{
+        line-height: 1.2;
+    }
+    .ayudaI li a{
+        padding-left: 0px;
+        font-size: 13px;
+    }
+    .infoI h2{
+        font-size: 1.125rem;
+    }
+    .infoI li{
+        line-height: 1.2;
+    }
+    .infoI li a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px){
+    .navtop li a{
+        font-size: 1.0625rem;
+    }
+    .remerascategoria{
+        height: 150px;
+    }
+    .remerascategoria li{
+        height: 90px;
+        font-size: 14px;
+    }
+    .artremeras {
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 30px;
+        padding-bottom: 50px;
+        gap: 10px;
     }
     .navbottom{
-        padding: 0;
+        padding-top: 20px;
+    }
+    .redes h2{
+        font-size: 1.5625rem;
+    }
+    .ayuda h2{
+        font-size: 1.5625rem;
+        padding-bottom: 3px;
+    }
+    .ayuda li{
+        line-height: 2;
+    }
+    .info h2{
+        font-size: 1.5625rem;
+    }
+    .info li{
+        line-height: 2;
+    }
+}
+@media (max-width: 425px){
+    .navtop{
+        gap: 14px;
+        padding-left: .3125rem;
+    }
+    .navtop li a{
+        font-size: 12px;
+    }
+    .remerascategoria{
+        height: 80px;
+        grid-template-columns: repeat(8, 1fr);
+        gap: .9375rem;
+    }
+    .remerascategoria li{
+        height: 60px;
+        font-size: 10px;
+    }
+    .vertodo{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .mangacorta{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    .mangalarga{
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+    .bordado{
+        grid-column-start: 5;
+        grid-column-end: 6,
+    }
+    .estampado{
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+    .liso{
+        grid-column-start: 7;
+        grid-column-end: 8;
+    }
+    .artremeras {
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 20px;
+    }
+    .artremeras div li img{
+        height: 300px;
+    }
+    .navbottom{
+        padding: 15px;
         padding-top: 10px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         justify-content: start;
+        gap: 1.25rem;
     }
     .redes{
         justify-content: flex-start;
         align-items: flex-start;
-        padding-right: 1.5625rem;
+        padding-right: 0;
+        padding-left: .625rem;
     }
     .redes h2{
+        height: 35px;
         font-size: 1.125rem;
     }
     .redes li{
-        display: list-item;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
         list-style: none;
     }
     .redes img{
@@ -762,21 +988,27 @@ header{
     }
     .ayuda h2{
         font-size: 1.125rem;
+        padding-bottom: 5px;
+    }
+    .ayuda{
+        padding-left: .625rem;
     }
     .ayuda li{
         line-height: 1;
+        padding-left: 10px;
     }
     .ayuda li a{
-        font-size: .875rem;
+        font-size: .8125rem;
         padding: 0;
     }
     .info h2{
         font-size: 1.125rem;
+        padding-bottom: .3125rem;
     }
     .info li{
         line-height: 1;
     }
     .info li a{
-        font-size: .875rem;
+        font-size: .8125rem;
     }
 }
