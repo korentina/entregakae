@@ -639,26 +639,49 @@ header{
         grid-template-rows: repeat(10,24.6px)
     }
     .categoria1 button{
-        font-size: 10px;
+        font-size: 12px;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .categoria1a{
+        grid-column-start: 1;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 11;
+        order: 1;
     }
     .categoria1a img{
         height: 246px;
     }
-    .categoria1b li img{
-        height: 123px;
+    .categoria1b{
+        display: none;
     }
     .categoria2{
         height: 246px;        
         grid-template-rows: repeat(10,24.6px)
     }
     .categoria2 button{
-        font-size: 10px;
+        font-size: 12px;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .categoria2a{
+        grid-column-start: 1;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 11;
+        order: 1;
     }
     .categoria2a img{
         height: 246px;
+        object-fit: cover;
     }
-    .categoria2b li img{
-        height: 123px;
+    .categoria2b{
+        display: none;
     }
     .categoria3{
         height: 246px;
@@ -666,25 +689,49 @@ header{
     }
     .categoria3 button{
         font-size: 10px;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .categoria3a{
+        grid-column-start: 1;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 11;
+        order: 1;
     }
     .categoria3a img{
         height: 246px;
+        object-fit: cover;
     }
-    .categoria3b li img{
-        height: 123px;
+    .categoria3b{
+        display: none;
     }
     .categoria4{
         height: 246px;
         grid-template-rows: repeat(10,24.6px)
     }
     .categoria4 button{
-        font-size: 10px;
+        font-size: 12px;
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 7;
+        grid-row-end: 9;
+    }
+    .categoria4a{
+        grid-column-start: 1;
+        grid-column-end: 11;
+        grid-row-start: 1;
+        grid-row-end: 11;
+        order: 1;
     }
     .categoria4a img{
         height: 246px;
+        object-fit: cover;
     }
-    .categoria4b li img{
-        height: 123px;
+    .categoria4b{
+        display: none;
     }
     footer{
         height: 200px;
