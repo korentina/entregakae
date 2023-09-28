@@ -621,6 +621,7 @@ header{
         line-height: 2;
     }
 }
+
 @media (max-width: 425px){
     .portada{
         height: 495px;
