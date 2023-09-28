@@ -85,6 +85,9 @@ font-family: 'PT Sans', sans-serif;
     grid-row-end: 9;
     order: 3;
 }
+.categoria1 button a{
+    color: aliceblue;
+}
 .categoria1 button:hover{
     box-shadow: 0px 0px .625rem #2D4262;
 }
@@ -115,7 +118,7 @@ font-family: 'PT Sans', sans-serif;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,60px)
 }
-.categoria2 button{
+.categoria2 button {
     font-size: 16px;
     font-family: 'PT Sans', sans-serif;
     background-color: black;
@@ -125,6 +128,9 @@ font-family: 'PT Sans', sans-serif;
     grid-row-start: 8;
     grid-row-end: 9;
     order: 3;
+}
+.categoria2 button a{
+    color: aliceblue;
 }
 .categoria2 button:hover{
     box-shadow: 0px 0px .625rem #2D4262;
@@ -819,6 +825,7 @@ header{
         padding-top: 30px;
         padding-bottom: 50px;
         gap: 10px;
+        font-size: 14px;
     }
     .navbottom{
         padding-top: 20px;
@@ -1149,18 +1156,28 @@ header{
     }
     .aranguren h3{
         padding-left: 0;
+        font-size: 1.25rem;
+    }
+    .aranguren h2{
+        font-size: 25px;
     }
     .aranguren li{
         padding-left: 0;
+        font-size: 16px;
     }
     .maparanguren{
         padding-left: 0;
     }
     .campana h3{
         padding-left: 0;
+        font-size: 1.25rem;
+    }
+    .campana h2{
+        font-size: 1.5625rem;
     }
     .campana li{
         padding-left: 0;
+        font-size: 16px;
     }
     .mapcampana{
         padding-left: 0;
