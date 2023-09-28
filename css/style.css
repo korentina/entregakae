@@ -714,7 +714,7 @@ header{
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     .portada{
         height: 495px;
     }
@@ -907,7 +907,7 @@ header{
         line-height: 2;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 426px){
     .navtop{
         gap: 14px;
         padding-left: .3125rem;
