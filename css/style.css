@@ -18,7 +18,7 @@ font-family: 'PT Sans', sans-serif;
     background-color: #E1E2E0;
     display: grid;
     width: 100%;
-    height: 700px;
+    height: 1200px;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
 }
@@ -29,13 +29,13 @@ font-family: 'PT Sans', sans-serif;
     grid-column-end: 13;
     order: 1;
     width: 100%;
-    height: 700px;
-    object-fit: contain;
+    height: 1200px;
+    object-fit: cover;
 }
 .portada h1{
     font-size: 3.125rem;
     font-family: 'Averia Serif Libre', cursive;
-    grid-row-start: 7;
+    grid-row-start: 8;
     grid-row-end: 10;
     grid-column-start: 5;
     grid-column-end: 9;
@@ -433,15 +433,19 @@ header{
 .remerascategoria{
     width: 100%;
     height: 9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     gap: .625rem;
 }
+
 .remerascategoria li{
     list-style: none;
     gap: 20px;
+    width: 100%;
+    height: 9rem;
 }
 .remerascategoria li img{
     width: 100%;
@@ -535,3 +539,5 @@ header{
     font-family: 'PT Sans', sans-serif;
     font-size: .9375rem;
 }
+
+@media (max-wi)
