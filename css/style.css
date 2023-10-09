@@ -146,36 +146,41 @@ header {
   .whatsapp img {
     width: 100%; }
 
-.navbottomI {
-  background-color: #2D4262;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 30px; }
-  .navbottomI div {
+footer {
+  height: 20rem;
+  background-color: #2D4262; }
+
+.redes {
+  line-height: 2.5; }
+  .redes h2 {
     font-family: "PT Sans", sans-serif;
-    flex-direction: row; }
-    .navbottomI div h2 {
-      font-family: "PT Sans", sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold; }
+  .redes li {
+    display: inline;
+    padding-right: 20px; }
+
+.ayuda, .info {
+  display: flex;
+  flex-direction: column; }
+  .ayuda h2, .info h2 {
+    font-family: "PT Sans", sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold; }
+  .ayuda li, .info li {
+    list-style: none;
+    line-height: 2.5; }
+    .ayuda li a, .info li a {
       color: black;
-      font-size: 30px;
-      font-weight: bold; }
-    .navbottomI div li {
-      list-style: none;
-      line-height: 2.5; }
+      padding-left: 27px;
+      text-decoration: none;
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px; }
 
-.redesI li {
-  display: inline;
-  padding-right: 30px; }
-
-.infoI li a, .ayudaI li a {
-  text-decoration: none;
-  font-family: "PT Sans", sans-serif;
-  color: black;
-  font-size: 18px; }
-
-.ayudaI li a {
-  padding-left: 1.6875rem; }
+.info li a {
+  padding-left: 0; }
 
 .mainCategoria {
   width: 100%;
@@ -252,29 +257,67 @@ header {
   padding-right: 3.75rem; }
   .sucursales h1 {
     font-family: "PT Sans", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: underline;
     padding-top: 10px; }
-    .sucursales h1 div h2 {
-      font-family: "PT Sans", sans-serif;
-      font-size: 20px;
-      line-height: 1.5;
-      padding-top: 20px; }
-    .sucursales h1 div h3 {
-      font-family: "PT Sans", sans-serif;
-      font-size: 18px;
-      line-height: 1.5;
-      padding-left: 1.25rem; }
-    .sucursales h1 div li {
-      font-family: "PT Sans", sans-serif;
-      font-size: 18px;
-      list-style-position: inside;
-      padding-left: 1.875rem; }
-    .sucursales h1 div iframe {
-      width: 37.5rem;
-      height: 28.125rem;
-      padding: 20px;
-      padding-left: 2.5rem; }
+
+.aranguren h2, .campana h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  padding-top: 20px; }
+
+.aranguren h3, .campana h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-left: 1.25rem; }
+
+.aranguren li, .campana li {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  list-style-position: inside;
+  padding-left: 1.875rem; }
+
+.aranguren iframe, .campana iframe {
+  padding-left: 2.5rem;
+  width: 37.5rem;
+  height: 28.125rem;
+  padding: 20px; }
+
+.campana {
+  padding-top: 5%; }
 
 .bg-body-navbar {
   background-color: #2D4262; }
+
+.navbottomI, footer nav {
+  background-color: #2D4262;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 30px; }
+  .navbottomI div, footer nav div {
+    font-family: "PT Sans", sans-serif;
+    flex-direction: row; }
+    .navbottomI div h2, footer nav div h2 {
+      font-family: "PT Sans", sans-serif;
+      color: black;
+      font-size: 30px;
+      font-weight: bold; }
+    .navbottomI div li, footer nav div li {
+      list-style: none;
+      line-height: 2.5; }
+
+.redesI li {
+  display: inline;
+  padding-right: 30px; }
+
+.infoI li a, .ayudaI li a {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  color: black;
+  font-size: 18px; }
+
+.ayudaI li a {
+  padding-left: 1.6875rem; }

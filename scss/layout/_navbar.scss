@@ -31,27 +31,55 @@
     }
 }
 
-.navbottomI{
+footer{
+    height: 20rem;
     background-color: $bg-nav;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 30px;
-    div{
-        font-family: $font-texto;
-        flex-direction: row;
-        h2{
-            font-family: $font-texto;
-            color: $color-texto;
-            font-size: map-get($font-size, xl);
-            font-weight: bold;
-        }
-        li{
-            list-style: none;
-            line-height: 2.5;
-            a{
+    nav{
+        @extend .navbottomI;
+    }
+}
 
-            }
+.redes{
+    line-height: 2.5;
+    h2{
+        font-family: $font-texto;
+        color: $color-texto;
+        font-size: map-get($font-size, xl);
+        font-weight: bold;
+    }
+    li{
+        display: inline;
+        padding-right: 20px;
+    }
+}
+
+.ayuda{
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-family: $font-texto;
+        color: $color-texto;
+        font-size: map-get($font-size, xl);
+        font-weight: bold;
+    }
+    li{
+        list-style: none;
+        line-height: 2.5;
+        a{
+            color: $color-texto;
+            padding-left: 27px;
+            text-decoration: none;
+            font-family: $font-texto;
+            font-size: map-get($font-size, sm);
+        }
+    }
+}
+
+.info{
+    @extend .ayuda;
+    li{
+        a{
+            padding-left: 0;
         }
     }
 }
