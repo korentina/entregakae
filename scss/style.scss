@@ -6,7 +6,11 @@
 
 @import "./base/reset";
 
-@import "./components/bootstrap";
-
+@import "./layout/header";
 @import "./layout/main-index";
 @import "./layout/navbar";
+@import "./layout/main-categorias";
+
+@import "./components/bootstrap";
+
+
