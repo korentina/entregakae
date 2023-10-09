@@ -1,0 +1,14 @@
+
+@mixin grid-categoria($col, $justify, $align, $gap){
+    display: grid;
+    grid-template-columns: $col;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin grid-cat($cols, $cole){
+    grid-column-start: $cols;
+    grid-column-end: $cole;
+}
+

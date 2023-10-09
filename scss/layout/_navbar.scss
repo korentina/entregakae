@@ -55,27 +55,3 @@
         }
     }
 }
-.redesI{
-    li{
-    display: inline;
-    padding-right: 30px;
-    }
-}
-.infoI{
-    li{
-        a{
-    text-decoration: none;
-    font-family: $font-texto;
-    color: $color-texto;
-    font-size: map-get($font-size,sm);
-        }
-    }
-}
-.ayudaI{
-    @extend .infoI;
-    li{
-        a{
-            padding-left: 1.6875rem;
-        }
-    }
-}
