@@ -1,0 +1,12 @@
+/***llamar con @import primero a todos los utilities, bases, layout, components, y ultimo mediaquerys***/
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=PT+Sans&display=swap');
+
+@import "./utilities/variables";
+@import "./utilities/maps";
+
+@import "./base/reset";
+
+@import "./components/bootstrap";
+
+@import "./layout/main-index";
+@import "./layout/navbar";

@@ -1,0 +1,59 @@
+.whatsapp{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    img{
+        width: 100%;
+    }
+}
+
+.navbottomI{
+    background-color: $bg-nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 30px;
+    div{
+        font-family: 'PT Sans', sans-serif;
+        flex-direction: row;
+        h2{
+            font-family: $font-texto;
+            color: $color-texto;
+            font-size: map-get($font-size, xl);
+            font-weight: bold;
+        }
+        li{
+            list-style: none;
+            line-height: 2.5;
+            a{
+
+            }
+        }
+    }
+}
+.redesI{
+    li{
+    display: inline;
+    padding-right: 30px;
+    }
+}
+.infoI{
+    li{
+        a{
+    text-decoration: none;
+    font-family: $font-texto;
+    color: $color-texto;
+    font-size: map-get($font-size,sm);
+        }
+    }
+}
+.ayudaI{
+    @extend .infoI;
+    li{
+        a{
+            padding-left: 1.6875rem;
+        }
+    }
+}
