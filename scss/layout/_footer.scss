@@ -1,2 +1,7 @@
-
-
+footer{
+    height: 20rem;
+    background-color: $bg-nav;
+    nav{
+        @extend .navbottomI;
+    }
+}

@@ -12,3 +12,8 @@
     grid-column-end: $cole;
 }
 
+@mixin flex($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}

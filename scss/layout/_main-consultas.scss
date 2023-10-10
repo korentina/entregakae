@@ -1,0 +1,29 @@
+.consultas{
+    padding: 5%;
+    height: 950px;
+    h1{
+        font-family: $font-texto;
+        font-size: map-get($font-size, xl);
+        text-decoration: underline;
+    }
+    p{
+        font-family: $font-texto;
+        font-size: map-get($font-size, md);
+    }
+}
+.opciones{
+    @include flex(row, flex-start);
+    align-items: center;
+    padding: 10px;
+}
+
+.whatsappc{
+    width: 2.5rem;
+    height: 2.5rem;
+    img{
+        width: 100%;
+    }
+}
+.mail{
+    @extend .whatsappc;
+}

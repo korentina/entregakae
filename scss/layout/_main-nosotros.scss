@@ -1,0 +1,43 @@
+.nosotros{
+    h1{
+        padding-top: 2%;
+        padding-left: 2%;
+        font-size: map-get($font-size, xl);
+        text-decoration: underline;
+        font-family: $font-texto;
+    }
+    p{
+        width: 100%;
+        text-align: justify;
+        padding: 5%;
+        font-size: map-get($font-size, md);
+        font-family: $font-texto;
+    }
+}
+
+.videocorp{
+    @include flex(row, center);
+    padding-bottom: 1.25rem;
+}
+
+.formulario-de-consulta{
+    border: none;
+    font-family: $font-texto;
+    font-size: map-get($font-size, md);
+    padding: 10px;
+    input{
+        background-color: #D9D9D9;
+        width: 90%;
+        font-family: $font-texto;
+        font-size: map-get($font-size, sm);
+        padding-bottom: 5px;
+    }
+    textarea{
+        background-color: #D9D9D9;
+        width: 90%;
+        font-family: $font-texto;
+        font-size: map-get($font-size, sm);
+        padding-bottom: 5px;
+    }
+}
+
