@@ -4,3 +4,13 @@ header{
     position: sticky;
     top: 0;
 }
+.btn-secondary{
+    background-color: $bg-nav;
+    font-size: map-get($font-size, md);
+    &:hover{
+        text-shadow: 0px 0px .625rem aliceblue;
+    }
+}
+.dropdown-menu{
+    @extend .btn-secondary
+}

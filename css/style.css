@@ -11,6 +11,12 @@ header {
   position: sticky;
   top: 0; }
 
+.btn-secondary, .dropdown-menu {
+  background-color: #2D4262;
+  font-size: 20px; }
+  .btn-secondary:hover, .dropdown-menu:hover {
+    text-shadow: 0px 0px .625rem aliceblue; }
+
 .portada {
   background-color: #FFFAF5;
   display: grid;
@@ -126,7 +132,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   list-style: none;
-  height: 50px;
+  height: 70px;
   gap: 1.875rem;
   padding-left: 1.25rem; }
   .navtop li a {
@@ -465,13 +471,13 @@ footer {
     height: 140px; }
     .mainCategoria li {
       height: 90px;
-      font-size: 12px; }
+      font-size: 11px; }
   .listaArticulos {
     grid-template-columns: repeat(3, 1fr);
     padding-top: 30px;
     padding-bottom: 50px;
     gap: 10px;
-    font-size: 12px; }
+    font-size: 11px; }
   .navbottom {
     padding-top: 20px; }
     .navbottom h2 {
@@ -497,12 +503,12 @@ footer {
     .portada h1 {
       font-size: 20px; }
     .portada button {
-      font-size: 12px; }
+      font-size: 11px; }
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
     .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
-      font-size: 12px;
+      font-size: 11px;
       grid-column-start: 5;
       grid-column-end: 7;
       grid-row-start: 7;
@@ -521,7 +527,7 @@ footer {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
     .categoria2 button, .categoria4 button {
-      font-size: 12px;
+      font-size: 11px;
       grid-column-start: 5;
       grid-column-end: 7;
       grid-row-start: 7;
@@ -561,7 +567,7 @@ footer {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
     .categoria4 button {
-      font-size: 12px;
+      font-size: 11px;
       grid-column-start: 5;
       grid-column-end: 7;
       grid-row-start: 7;
@@ -600,13 +606,13 @@ footer {
     line-height: 1.2; }
     .ayudaI ul li a {
       padding-left: 0px;
-      font-size: 12px; }
+      font-size: 11px; }
   .infoI ul h2, .ayudaI ul h2 {
     font-size: 18px; }
   .infoI ul li, .ayudaI ul li {
     line-height: 1.2; }
     .infoI ul li a, .ayudaI ul li a {
-      font-size: 12px; }
+      font-size: 11px; }
   .navtop {
     gap: 14px;
     padding-left: .3125rem; }
@@ -618,7 +624,7 @@ footer {
     gap: .9375rem; }
     .mainCategoria li {
       height: 50px;
-      font-size: 12px; }
+      font-size: 11px; }
   .vertodo {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -656,6 +662,9 @@ footer {
     gap: 20px; }
     .listaArticulos div li img {
       height: 300px; }
+    .listaArticulos div p button img {
+      width: 9px;
+      height: 9px; }
   .navbottom {
     padding: 15px;
     padding-top: 10px;
@@ -698,26 +707,27 @@ footer {
   .info li {
     line-height: 1.2; }
     .info li a {
-      font-size: 12px; }
+      font-size: 11px; }
   .sucursales {
     padding: 30px;
     justify-content: space-between;
     padding-left: 1.25rem; }
     .sucursales iframe {
       width: 380px;
-      height: 18.75rem; }
+      height: 18.75rem;
+      padding: 5%; }
     .sucursales h2 {
       font-size: 20px; }
     .sucursales h3 {
       padding-left: 0;
       font-size: 18px; }
     .sucursales li {
-      font-size: 12px;
+      font-size: 11px;
       padding-top: 5px; }
   .nosotros h1 {
     font-size: 20px; }
   .nosotros p {
-    font-size: 12px; }
+    font-size: 11px; }
   .videocorp iframe {
     padding: 5%; }
   .consultas h1 {
@@ -727,6 +737,6 @@ footer {
   .formulario-de-consulta {
     font-size: 18px; }
     .formulario-de-consulta input {
-      font-size: 12px; }
+      font-size: 11px; }
     .formulario-de-consulta textarea {
-      font-size: 12px; } }
+      font-size: 11px; } }

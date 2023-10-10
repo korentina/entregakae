@@ -184,6 +184,14 @@
                     height: 300px;
                 }
             }
+            p{
+                button{
+                    img{
+                        width: 9px;
+                        height: 9px;
+                    }
+                }
+            }
         }
     }
     .navbottom{
@@ -237,6 +245,7 @@
             }
         }
     }
+
     .sucursales{
         padding: 30px;
         justify-content: space-between;
@@ -244,6 +253,7 @@
         iframe{
             width: 380px;
             height: 18.75rem;
+            padding: 5%;
         }
         h2{
             font-size: map-get($font-size, md);
