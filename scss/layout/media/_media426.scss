@@ -1,0 +1,290 @@
+@media (max-width: 426px){
+    .portada{
+        height: 495px;
+        img{
+            height: 495px;
+        }
+        h1{
+            font-size: map-get($font-size, md);
+        }
+        button{
+            font-size: map-get($font-size, xxs);
+        }
+    }
+    .categoria1{
+        height: 246px;
+        grid-template-rows: repeat(10,24.6px);
+        button{
+            font-size: map-get($font-size, xxs);
+            @include grid-cat(5, 7, 7, 9);
+        }
+    }
+    .categoria1a{
+        @include grid-cat(1, 11, 1, 11);
+        order: 1;
+        img{
+            height: 246px;
+        }
+    }
+    .categoria1b{
+        display: none;
+    }
+    .categoria2{
+        height: 246px;
+        grid-template-rows: repeat(10,24.6px);
+        button{
+            font-size: map-get($font-size, xxs);
+            @include grid-cat(5, 7, 7, 9);
+        }
+    }
+    .categoria2a{
+        @include grid-cat(1, 11, 1, 11);
+        order: 1;
+        img{
+            height: 246px;
+            object-fit: cover;
+        }
+    }
+    .categoria2b{
+        display: none;
+    }
+    .categoria3{
+        height: 246px;
+        grid-template-rows: repeat(10,24.6px);
+        button{
+            font-size: 10px;
+            @include grid-cat(5, 7, 7, 9);
+        }
+    }
+    .categoria3a{
+        @include grid-cat(1, 11, 1, 11);
+        order: 1;
+        img{
+            height: 246px;
+            object-fit: cover;
+        }
+    }
+    .categoria3b{
+        display: none;
+    }
+    .categoria4{
+        height: 246px;
+        grid-template-rows: repeat(10,24.6px);
+        button{
+            font-size: map-get($font-size, xxs);
+            @include grid-cat(5, 7, 7, 9);
+        }
+    }
+    .categoria4a{
+        @include grid-cat(1, 11, 1, 11);
+        order: 1;
+        img{
+            height: 246px;
+            object-fit: cover;
+        }
+    }
+    .categoria4b{
+        display: none;
+    }
+    footer{
+        height: 15.625rem;
+    }
+    .navbottomI{
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .redesI{
+        padding-right: 40px;
+        ul{
+            h2{
+                font-size: map-get($font-size, sm);
+            }
+            li{
+                height: 1.875rem;
+                @include flex(column, flex-start);
+            }
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+        
+    }
+    .ayudaI{
+        ul{
+            h2{
+                font-size: map-get($font-size, sm);
+            }
+            li{
+                line-height: 1.2;
+                a{
+                    padding-left: 0px;
+                    font-size: map-get($font-size, xxs);
+                }
+            }
+        }
+    }
+    .infoI{
+        ul{
+            h2{
+                font-size: map-get($font-size, sm);
+            }
+            li{
+                line-height: 1.2;
+                a{
+                    font-size: map-get($font-size, xxs);
+                }
+            }
+        }
+    }
+    .navtop{
+        gap: 14px;
+        padding-left: .3125rem;
+        li{
+            a{
+                font-size: 11px;
+            }
+        }
+    }
+    .mainCategoria{
+        height: 70px;
+        grid-template-columns: repeat(8, 1fr);
+        gap: .9375rem;
+        li{
+            height: 50px;
+            font-size: map-get($font-size, xxs);
+        }
+    }
+    .vertodo{
+        @include grid-cat(2, 3, none, none);
+    }
+    .cat1{
+        @include grid-cat(3, 4, none, none);
+    }
+    .cat2{
+        @include grid-cat(4, 5, none, none);
+    }
+    .cat3{
+        @include grid-cat(5, 6, none, none);
+    }
+    .cat4{
+        @include grid-cat(6, 7, none, none);
+    }
+    .cat5{
+        @include grid-cat(7, 8, none, none);
+    }
+    .listaArticulos{
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 50px;
+        padding-bottom: 20px;
+        gap: 20px;
+        div{
+            li{
+                img{
+                    height: 300px;
+                }
+            }
+        }
+    }
+    .navbottom{
+        padding: 15px;
+        padding-top: 10px;
+        @include grid-categoria(repeat(3, 1fr), start, none, 1.125rem);
+    }
+    .redes{
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 0;
+        padding-left: .625rem;
+        h2{
+            height: 35px;
+            font-size: map-get($font-size, sm);
+        }
+        li{
+            height: 30px;
+            @include flex(column, flex-start);
+            list-style: none;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .ayuda{
+        padding-left: .625rem;
+        h2{
+            font-size: map-get($font-size, sm);
+            padding-bottom: 5px;
+        }
+        li{
+            line-height: 1.2;
+            padding-left: 10px;
+            a{
+                font-size: .8125rem;
+                padding: 0;
+            }
+        }
+    }
+    .info{
+        h2{
+            font-size: map-get($font-size, sm);
+            padding-bottom: .3125rem;
+        }
+        li{
+            line-height: 1.2;
+            a{
+                font-size: map-get($font-size, xxs);
+            }
+        }
+    }
+    .sucursales{
+        padding: 30px;
+        justify-content: space-between;
+        padding-left: 1.25rem;
+        iframe{
+            width: 380px;
+            height: 18.75rem;
+        }
+        h2{
+            font-size: map-get($font-size, md);
+        }
+        h3{
+            padding-left: 0;
+            font-size: map-get($font-size, sm);
+        }
+        li{
+            font-size: map-get($font-size, xxs);
+            padding-top: 5px;
+        }
+    }
+    .nosotros{
+        h1{
+            font-size: map-get($font-size, md);
+        }
+        p{
+            font-size: map-get($font-size, xxs);
+        }
+    }
+    .videocorp{
+        iframe{
+            padding: 5%;
+        }
+    }
+    .consultas{
+        h1{
+            font-size: map-get($font-size, md)
+        }
+        p{
+            font-size: map-get($font-size, xs);
+        }
+    }
+    .formulario-de-consulta{
+        font-size: map-get($font-size, sm);
+        input{
+            font-size: map-get($font-size, xxs);
+        }
+        textarea{
+            font-size: map-get($font-size, xxs);
+        }
+    }
+}

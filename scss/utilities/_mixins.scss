@@ -7,9 +7,11 @@
     gap: $gap;
 }
 
-@mixin grid-cat($cols, $cole){
+@mixin grid-cat($cols, $cole, $rows, $rowe){
     grid-column-start: $cols;
     grid-column-end: $cole;
+    grid-row-start: $rows;
+    grid-row-end: $rowe;
 }
 
 @mixin flex($direction, $justify){

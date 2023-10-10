@@ -1,0 +1,174 @@
+@media (max-width: 768px){
+    .portada{
+        height: 900px;
+        img{
+            height: 900px;
+        }
+        h1{
+            font-size: map-get($font-size,xl);
+        }
+    }
+    .categoria1{
+        height: 450px;
+        grid-template-rows: repeat(10,45px);
+        button{
+            font-size: map-get($font-size,xs);
+        }
+    }
+    .categoria1a{
+        img{
+            height: 450px;
+        }
+    }
+    .categoria1b{
+        li{
+            img{
+                height: 225px;
+            }
+        }
+    }
+    .categoria2{
+        height: 450px;
+        grid-template-rows: repeat(10,45px);
+        button{
+            font-size: map-get($font-size,xs);
+        }
+    }
+    .categoria2a{
+        img{
+            height: 450px;
+        }
+    }
+    .categoria2b{
+        li{
+            img{
+                height: 225px;
+            }
+        }
+    }
+    .categoria3{
+        height: 450px;
+        grid-template-rows: repeat(10,45px);
+        button{
+            font-size: map-get($font-size,xs);
+        }
+    }
+    .categoria3a{
+        img{
+            height: 450px;
+        }
+    }
+    .categoria3b{
+        li{
+            img{
+                height: 225px;
+            }
+        }
+    }
+    .categoria4{
+        height: 450px;
+        grid-template-rows: repeat(10,45px);
+        button{
+            font-size: map-get($font-size,xs);
+        }
+    }
+    .categoria4a{
+        img{
+            height: 450px;
+        }
+    }
+    .categoria4b{
+        li{
+            img{
+                height: 225px;
+            }
+        }
+    }
+    .navbottomI{
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    .redesI{
+        h2{
+            font-size: map-get($font-size, md);
+        }
+        li{
+            padding-right: 20px;
+        }
+    }
+    .ayudaI{
+        h2{
+            font-size: map-get($font-size, md);
+        }
+        li{
+            line-height: 2;
+            a{
+                padding-left: 0px;
+                font-size: map-get($font-size, xs);
+            }
+        }
+    }
+    .infoI{
+        h2{
+            font-size: map-get($font-size, md);
+        }
+        li{
+            line-height: 2;
+            a{
+                font-size: map-get($font-size, xs);
+            }
+        }
+    }
+    .navtop{
+        li{
+            a{
+                font-size: map-get($font-size, xs);
+            }
+        }
+    }
+    .mainCategoria{
+        height: 140px;
+        li{
+            height: 90px;
+            font-size: map-get($font-size, xxs);
+        }
+    }
+    .listaArticulos{
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 30px;
+        padding-bottom: 50px;
+        gap: 10px;
+        font-size: map-get($font-size, xxs);
+    }
+    .navbottom{
+        padding-top: 20px;
+        h2{
+            font-size: map-get($font-size, md);
+        }
+    }
+    .ayuda{
+        h2{
+            padding-bottom: 3px;
+            padding-left: 13px;
+        }
+        li{
+            line-height: 2;
+            padding-left: 15px;
+        }
+    }
+    .info{
+        li{
+            line-height: 2;
+        }
+    }
+    .nosotros{
+        p{
+        font-size: map-get($font-size, sm);
+        }
+    }
+    .sucursales{
+        h1{
+            font-size: map-get($font-size, xl);
+        }
+    }
+}

@@ -6,8 +6,8 @@
     li{
         list-style: none;
         gap: 20px;
-        width: 100%;
-        height: 100px;
+        width: 75%;
+        height: 150px;
         img{
             width: 100%;
             height: 100%;
@@ -20,22 +20,22 @@
     }
 }
 .vertodo{
-    @include grid-cat(3, 4);
+    @include grid-cat(3, 4, none, none);
 }
 .cat1{
-    @include grid-cat(4, 5);
+    @include grid-cat(4, 5, none, none);
 }
 .cat2{
-    @include grid-cat(5, 6);
+    @include grid-cat(5, 6, none, none);
 }
 .cat3{
-    @include grid-cat(6, 7);
+    @include grid-cat(6, 7, none, none);
 }
 .cat4{
-    @include grid-cat(7, 8);
+    @include grid-cat(7, 8, none, none);
 }
 .cat5{
-    @include grid-cat(8, 9);
+    @include grid-cat(8, 9, none, none);
 }
 
 .listaArticulos{
