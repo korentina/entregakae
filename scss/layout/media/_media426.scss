@@ -1,6 +1,10 @@
 @media (max-width: 426px){
     header{
-        height: 4.5vh;    
+        height: 5.2vh;    
+    }
+    .dropdown-toggle{
+        height: 4.5vh;
+        font-size: map-get($font-size, xxs);
     }
     .portada{
         height: 495px;
@@ -143,7 +147,7 @@
     .navtop{
         gap: 10px;
         padding-left: .3125rem;
-        height: 4.5vh;
+        height: 5.2vh;
         padding-left: 3px;
         li{
             img{

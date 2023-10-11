@@ -537,7 +537,10 @@ footer {
 
 @media (max-width: 426px) {
   header {
-    height: 4.5vh; }
+    height: 5.2vh; }
+  .dropdown-toggle {
+    height: 4.5vh;
+    font-size: 11px; }
   .portada {
     height: 495px; }
     .portada img {
@@ -658,7 +661,7 @@ footer {
   .navtop {
     gap: 10px;
     padding-left: .3125rem;
-    height: 4.5vh;
+    height: 5.2vh;
     padding-left: 3px; }
     .navtop li img {
       width: 28px;
