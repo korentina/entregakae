@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: $col;
     justify-content: $justify;
-    align-items: $align;
+    align-content: $align;
     gap: $gap;
 }
 

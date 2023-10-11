@@ -157,7 +157,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   list-style: none;
-  height: 70px;
+  height: 7vh;
   gap: 1.875rem;
   padding-left: 1.25rem; }
   .navtop li a {
@@ -215,23 +215,23 @@ footer {
 
 .mainCategoria {
   width: 100%;
-  height: 12vh;
+  height: 20vh;
   text-align: center;
   padding-top: 2%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   justify-content: center;
-  align-items: center;
+  align-content: center;
   gap: 0.625rem; }
   .mainCategoria li {
     list-style: none;
     gap: 5px;
-    width: 70%;
+    width: 100%;
     height: 100%; }
     .mainCategoria li img {
       width: 100%;
-      height: 75%;
-      object-fit: fill;
+      height: 80%;
+      object-fit: cover;
       border-radius: 70%; }
       .mainCategoria li img:hover {
         box-shadow: 0px 0px .625rem #2D4262; }
@@ -277,7 +277,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: none;
-  align-items: none;
+  align-content: none;
   gap: 1.875rem;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -708,7 +708,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: start;
-    align-items: none;
+    align-content: none;
     gap: 1.125rem; }
   .redes {
     justify-content: flex-start;
