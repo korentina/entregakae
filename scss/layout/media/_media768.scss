@@ -127,9 +127,10 @@
         }
     }
     .mainCategoria{
-        height: 140px;
+        height: 10vh;
+        padding-bottom: 2%;
         li{
-            height: 90px;
+            height: 90%;
             font-size: map-get($font-size, xxs);
         }
     }
@@ -139,6 +140,14 @@
         padding-bottom: 50px;
         gap: 10px;
         font-size: map-get($font-size, xxs);
+        div{
+            p{
+                img{
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+        }
     }
     .navbottom{
         padding-top: 20px;

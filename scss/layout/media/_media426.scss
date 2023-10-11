@@ -147,12 +147,13 @@
         }
     }
     .mainCategoria{
-        height: 70px;
+        height: 6vh;
         grid-template-columns: repeat(8, 1fr);
         gap: .9375rem;
         li{
-            height: 50px;
-            font-size: map-get($font-size, xxs);
+            height: 90%;
+            font-size: 9px;
+            text-align: center;
         }
     }
     .vertodo{
@@ -251,7 +252,7 @@
         justify-content: space-between;
         padding-left: 1.25rem;
         iframe{
-            width: 380px;
+            width: 100%;
             height: 18.75rem;
             padding: 5%;
         }
