@@ -158,7 +158,7 @@ header {
   align-items: center;
   list-style: none;
   height: 7vh;
-  gap: 1.875rem;
+  gap: 25px;
   padding-left: 1.25rem; }
   .navtop li a {
     color: aliceblue;
@@ -215,13 +215,13 @@ footer {
 
 .mainCategoria {
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   text-align: center;
   padding-top: 2%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  justify-content: center;
-  align-content: center;
+  justify-content: start;
+  align-content: start;
   gap: 0.625rem; }
   .mainCategoria li {
     list-style: none;
@@ -435,6 +435,8 @@ footer {
   padding-left: 1.6875rem; }
 
 @media (max-width: 768px) {
+  header {
+    height: 6vh; }
   .portada {
     height: 900px; }
     .portada img {
@@ -497,13 +499,15 @@ footer {
     line-height: 2; }
     .infoI li a, .ayudaI li a {
       font-size: 16px; }
-  .navtop li a {
-    font-size: 16px; }
+  .navtop {
+    height: 6vh; }
+    .navtop li a {
+      font-size: 16px; }
   .mainCategoria {
-    height: 10vh;
-    padding-bottom: 2%; }
+    height: 13vh;
+    padding-top: 1%; }
     .mainCategoria li {
-      height: 90%;
+      height: 100%;
       font-size: 11px; }
   .listaArticulos {
     grid-template-columns: repeat(3, 1fr);
@@ -532,6 +536,8 @@ footer {
     font-size: 30px; } }
 
 @media (max-width: 426px) {
+  header {
+    height: 4.5vh; }
   .portada {
     height: 495px; }
     .portada img {
@@ -650,12 +656,17 @@ footer {
     .infoI ul li a, .ayudaI ul li a {
       font-size: 11px; }
   .navtop {
-    gap: 14px;
-    padding-left: .3125rem; }
+    gap: 10px;
+    padding-left: .3125rem;
+    height: 4.5vh;
+    padding-left: 3px; }
+    .navtop li img {
+      width: 28px;
+      height: 28px; }
     .navtop li a {
-      font-size: 11px; }
+      font-size: 10.5px; }
   .mainCategoria {
-    height: 6vh;
+    height: 11vh;
     grid-template-columns: repeat(8, 1fr);
     gap: .9375rem; }
     .mainCategoria li {
@@ -694,7 +705,7 @@ footer {
     grid-row-end: none; }
   .listaArticulos {
     grid-template-columns: repeat(1, 1fr);
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 20px;
     gap: 20px; }
     .listaArticulos div li img {

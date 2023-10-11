@@ -1,4 +1,7 @@
 @media (max-width: 426px){
+    header{
+        height: 4.5vh;    
+    }
     .portada{
         height: 495px;
         img{
@@ -138,16 +141,22 @@
         }
     }
     .navtop{
-        gap: 14px;
+        gap: 10px;
         padding-left: .3125rem;
+        height: 4.5vh;
+        padding-left: 3px;
         li{
+            img{
+                width: 28px;
+                height: 28px;
+            }
             a{
-                font-size: 11px;
+                font-size: 10.5px;
             }
         }
     }
     .mainCategoria{
-        height: 6vh;
+        height: 11vh;
         grid-template-columns: repeat(8, 1fr);
         gap: .9375rem;
         li{
@@ -176,7 +185,7 @@
     }
     .listaArticulos{
         grid-template-columns: repeat(1,1fr);
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 20px;
         gap: 20px;
         div{

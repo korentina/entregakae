@@ -1,4 +1,7 @@
 @media (max-width: 768px){
+    header{
+        height: 6vh;    
+    }
     .portada{
         height: 900px;
         img{
@@ -120,6 +123,7 @@
         }
     }
     .navtop{
+        height: 6vh;
         li{
             a{
                 font-size: map-get($font-size, xs);
@@ -127,10 +131,10 @@
         }
     }
     .mainCategoria{
-        height: 10vh;
-        padding-bottom: 2%;
+        height: 13vh;
+        padding-top: 1%;
         li{
-            height: 90%;
+            height: 100%;
             font-size: map-get($font-size, xxs);
         }
     }
