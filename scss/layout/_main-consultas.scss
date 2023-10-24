@@ -1,29 +1,179 @@
+
 .consultas{
-    padding: 5%;
-    height: 950px;
-    h1{
-        font-family: $font-texto;
-        font-size: map-get($font-size, xl);
-        text-decoration: underline;
+    font-family: sans-serif;
+    height: 880px;
+    position:relative;
+    .responsive-container-block {
+        min-height: 100px;
+        height: fit-content;
+        width: 100%;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        justify-content: flex-start;
+        align-content: center;
+        justify-content: center;
+    }
+    .responsive-container-block.bigContainer {
+        padding: 30px;
+    }
+    .responsive-container-block.Container {
+        max-width: 1320px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
+    }
+    .responsive-cell-block {
+        min-height: 75px;
+    }
+}
+.mainImg {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.responsive-cell-block.M {
+    background-color: #333333;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    p{
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .titulo-caja.descripcion{
+            color: white;
+            font-size: 35px;
+            line-height: 48px;
+            font-weight: 800;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 30px;
+            margin-left: 0px;
+    }
+}
+.formTable {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    a{
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        text-align: center;
+        background-color: $bg-nav;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        &:hover{
+            box-shadow: 0px 0px .625rem #2D4262;
+        }
+    }
+}
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    width: 100%;
+    div {
+        width: 49%;
+        p{
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 10px;
+            margin-left: 0px;
+            color: white;
+        }
+    }
+    input{
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+}
+.messageArea {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    textarea{
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
     }
     p{
-        font-family: $font-texto;
-        font-size: map-get($font-size, md);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        color: white;
     }
 }
-.opciones{
-    @include flex(row, flex-start);
-    align-items: center;
-    padding: 10px;
+.datosContacto{
+    position:absolute;
+    bottom:215px;right:150px;
+    background:#50505a;
+    color:#fff;width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:15px;
+    box-shadow:10px 10px 40px -14px #000;
+    span{
+        margin:0 5px 0 15px;
+    }
 }
 
-.whatsappc{
-    width: 2.5rem;
-    height: 2.5rem;
-    img{
-        width: 100%;
-    }
+@media (max-width: 500px) {
+.responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
-.mail{
-    @extend .whatsappc;
+.consultas .responsive-container-block.Container {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.consultas .responsive-cell-block.M {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    }
 }

@@ -294,21 +294,4 @@
             padding: 5%;
         }
     }
-    .consultas{
-        h1{
-            font-size: map-get($font-size, md)
-        }
-        p{
-            font-size: map-get($font-size, xs);
-        }
-    }
-    .formulario-de-consulta{
-        font-size: map-get($font-size, sm);
-        input{
-            font-size: map-get($font-size, xxs);
-        }
-        textarea{
-            font-size: map-get($font-size, xxs);
-        }
-    }
 }

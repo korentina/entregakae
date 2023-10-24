@@ -29,34 +29,49 @@
         </nav>
     </header>
     <main>
-        <section class="consultas">
-            <h1>CONSULTAS</h1>
-            <div class="opciones">
-                <div class="whatsappc">
-                    <img src="../assets/img/consultas/whatsappc.png" alt="whatsapp">
-                </div>    
-                <p><a href="https://wa.me/541168814857" target="_blank" class="contact-link" >+54 11 6881 4857</a></p>
-            </div>
-            <div class="opciones">
-                <div class="mail">
-                    <img src="../assets/img/consultas/mail.png" alt="mail">
+        <div class="consultas">
+            <div class="responsive-container-block bigContainer">
+                <div class="responsive-container-block Container">
+                    <div class="responsive-cell-block S">
+                        <img class="mainImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp35.svg">
+                    </div>
+                    <div class="responsive-cell-block M">
+                        <p class="titulo-caja descripcion">
+                            Contactanos
+                        </p>
+                        <form class="formTable">
+                            <div class="firstRow">
+                                <div class="fullNameArea">
+                                    <p>
+                                        Nombre y Apellido
+                                    </p>
+                                    <input type="text">
+                                </div>
+                                <div class="emailArea">
+                                    <p>
+                                        Email
+                                    </p>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="messageArea">
+                                <p>
+                                    Mensaje
+                                </p>
+                                <textarea cols="30" rows="10"></textarea>
+                            </div>
+                            <a class="submit" href="#">
+                                Enviar
+                            </a>
+                            <div class="datosContacto">
+                                <span class="telefono"></span> +54 1168814857
+                                <span class="mailWish"></span> info@wishbsas.com.ar
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <p>info@wishbsas.com.ar</p>
             </div>
-            <div>
-                <form action="">
-                    <fieldset class="formulario-de-consulta">
-                        <legend>Envianos tu consulta</legend>
-                            <label for="nombre"></label>
-                            <input type="text" name="" id="nombreyapellido" placeholder="nombre y apellido" required> 
-                            <label for="email"></label>
-                            <input type="email" id="email" placeholder="correo electronico" required>
-                            <textarea name="" id="areaconsulta" cols="30" rows="18" placeholder="escribi tu consulta"></textarea>
-                    </fieldset>
-                    <input type="submit"> 
-                </form>
-            </div>
-        </section>
+        </div>
         <section>
             <a class="whatsapp" href="https://wa.me/541168814857" target="_blank" ><img src="../assets/img/indexbody/iconos/whatsapp.png" alt=""></a>
         </section>

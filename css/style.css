@@ -10,7 +10,8 @@ header {
   width: 100%;
   height: 7vh;
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 20; }
 
 .btn-secondary, .dropdown-menu {
   background-color: #2D4262;
@@ -377,28 +378,166 @@ footer {
     padding-bottom: 5px; }
 
 .consultas {
-  padding: 5%;
-  height: 950px; }
-  .consultas h1 {
-    font-family: "PT Sans", sans-serif;
-    font-size: 30px;
-    text-decoration: underline; }
-  .consultas p {
-    font-family: "PT Sans", sans-serif;
-    font-size: 20px; }
+  font-family: sans-serif;
+  height: 880px;
+  position: relative; }
+  .consultas .responsive-container-block {
+    min-height: 100px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+    align-content: center;
+    justify-content: center; }
+  .consultas .responsive-container-block.bigContainer {
+    padding: 30px; }
+  .consultas .responsive-container-block.Container {
+    max-width: 1320px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto; }
+  .consultas .responsive-cell-block {
+    min-height: 75px; }
 
-.opciones {
+.mainImg {
+  width: 100%;
+  object-fit: cover;
+  height: 100%; }
+
+.responsive-cell-block.M {
+  background-color: #333333;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px; }
+  .responsive-cell-block.M p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
+  .responsive-cell-block.M .titulo-caja.descripcion {
+    color: white;
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px; }
+
+.formTable {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%; }
+  .formTable a {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: #2D4262;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; }
+    .formTable a:hover {
+      box-shadow: 0px 0px .625rem #2D4262; }
+
+.firstRow {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px; }
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  width: 100%; }
+  .firstRow div {
+    width: 49%; }
+    .firstRow div p {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      color: white; }
+  .firstRow input {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; }
 
-.whatsappc, .mail {
-  width: 2.5rem;
-  height: 2.5rem; }
-  .whatsappc img, .mail img {
-    width: 100%; }
+.messageArea {
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-left: 0px; }
+  .messageArea textarea {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; }
+  .messageArea p {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: white; }
+
+.datosContacto {
+  position: absolute;
+  bottom: 215px;
+  right: 150px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 15px;
+  box-shadow: 10px 10px 40px -14px #000; }
+  .datosContacto span {
+    margin: 0 5px 0 15px; }
+
+@media (max-width: 500px) {
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; }
+  .consultas .responsive-container-block.Container {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
+  .consultas .responsive-cell-block.M {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; } }
 
 .bg-body-navbar {
   background-color: #2D4262; }
@@ -533,7 +672,25 @@ footer {
   .nosotros p {
     font-size: 18px; }
   .sucursales h1 {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .consultas {
+    height: 1500px; }
+  .responsive-cell-block.M {
+    width: 600px; }
+  .firstRow {
+    flex-direction: column; }
+    .firstRow div input {
+      width: 203%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 10px;
+      margin-left: 0px; }
+  .responsive-cell-block.S {
+    width: 600px; }
+  .datosContacto {
+    position: absolute;
+    bottom: 138px;
+    right: 40px; } }
 
 @media (max-width: 426px) {
   header {
@@ -780,14 +937,4 @@ footer {
   .nosotros p {
     font-size: 11px; }
   .videocorp iframe {
-    padding: 5%; }
-  .consultas h1 {
-    font-size: 20px; }
-  .consultas p {
-    font-size: 16px; }
-  .formulario-de-consulta {
-    font-size: 18px; }
-    .formulario-de-consulta input {
-      font-size: 11px; }
-    .formulario-de-consulta textarea {
-      font-size: 11px; } }
+    padding: 5%; } }
