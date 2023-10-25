@@ -1,16 +1,12 @@
 
 .consultas{
     font-family: sans-serif;
-    height: 880px;
     position:relative;
     .responsive-container-block {
         min-height: 100px;
-        height: fit-content;
+        height: 700px;
         width: 100%;
-        padding-top: 20px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
+        padding: 10px;
         display: flex;
         flex-wrap: wrap;
         margin-top: 0px;
@@ -22,7 +18,8 @@
         justify-content: center;
     }
     .responsive-container-block.bigContainer {
-        padding: 30px;
+        padding: 20px;
+        height: 100%;
     }
     .responsive-container-block.Container {
         max-width: 1320px;
@@ -31,9 +28,9 @@
         margin-bottom: 50px;
         margin-left: auto;
     }
-    .responsive-cell-block {
-        min-height: 75px;
-    }
+}
+.responsive-cell-block.S{
+    width: 50%;
 }
 .mainImg {
     width: 100%;
@@ -41,10 +38,12 @@
     height: 100%;
 }
 .responsive-cell-block.M {
+    width: 50%;
+    height: 100%;
     background-color: #333333;
     padding-top: 30px;
     padding-right: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 50px;
     p{
         margin-top: 0px;
@@ -122,7 +121,7 @@
     width: 100%;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 0px;
     textarea{
         width: 100%;
@@ -134,6 +133,7 @@
         padding-right: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
+        height: 100%;
     }
     p{
         margin-top: 0px;
@@ -145,7 +145,7 @@
 }
 .datosContacto{
     position:absolute;
-    bottom:215px;right:150px;
+    bottom:60px;right:55px;
     background:#50505a;
     color:#fff;width:320px;
     padding:16px 4px 16px 0;
@@ -154,26 +154,5 @@
     box-shadow:10px 10px 40px -14px #000;
     span{
         margin:0 5px 0 15px;
-    }
-}
-
-@media (max-width: 500px) {
-.responsive-container-block.bigContainer {
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-}
-.consultas .responsive-container-block.Container {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-.consultas .responsive-cell-block.M {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
     }
 }

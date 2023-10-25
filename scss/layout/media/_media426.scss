@@ -294,4 +294,37 @@
             padding: 5%;
         }
     }
+    .formTable{
+        p{
+            font-size: map-get($font-size, xxs);
+        }
+        a{
+            font-size: map-get($font-size, xxs);
+        }
+    }
+    .responsive-cell-block.M {
+        width: 100%;
+        height: 95%;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        .titulo-caja.descripcion{
+            font-size: map-get($font-size, md);
+            margin-bottom: 10px;
+        }
+    }
+    .responsive-cell-block.S {
+        width: 100%;
+    }
+    .datosContacto{
+        position:absolute;
+        bottom:65px;right:50px;
+    }
+    .messageArea{
+        margin-bottom: -75px;
+        textarea{
+            font-size: map-get($font-size, sm);
+            height: 70%;
+        }
+    }
 }

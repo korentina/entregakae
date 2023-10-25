@@ -186,9 +186,11 @@
     }
     .consultas{
         height: 1500px;
+        padding-bottom: 5%;
     }
     .responsive-cell-block.M {
-        width: 600px;
+        width: 80%;
+        height: 100%;
     }
     .firstRow {
         flex-direction: column;
@@ -203,10 +205,18 @@
         }
     }
     .responsive-cell-block.S {
-        width: 600px;
+        width: 80%;
+        height: 100%;
     }
     .datosContacto{
         position:absolute;
-        bottom:138px;right:40px;
+        bottom:60px;right:70px;
+    }
+    .messageArea{
+        margin-bottom: 10px;
+        font-size: map-get($font-size, sm);
+        textarea{
+            height: 85%
+        }
     }
 }
