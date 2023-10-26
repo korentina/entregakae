@@ -1,0 +1,35 @@
+.error404{
+    padding-top: 5%;
+    h1{
+        font-size: 80px;
+        color: $bg-nav;
+        text-align: center;
+    }
+    h2{
+        font-size: 50px;
+        text-align: center;
+    }
+    div{
+        img{
+            margin-left: 33%;
+            margin-bottom: 10%;
+        }
+    }
+    ul{
+        h3{
+            font-size: 30px;
+            text-align: center;
+        }
+        div{
+            margin-left: 40%;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            line-height: 1.5;
+            li{
+                font-size: 25px;
+                text-align: justify;
+            }
+            }
+        }
+    }
+

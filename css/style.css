@@ -523,6 +523,30 @@ footer {
   .datosContacto span {
     margin: 0 5px 0 15px; }
 
+.error404 {
+  padding-top: 5%; }
+  .error404 h1 {
+    font-size: 80px;
+    color: #2D4262;
+    text-align: center; }
+  .error404 h2 {
+    font-size: 50px;
+    text-align: center; }
+  .error404 div img {
+    margin-left: 33%;
+    margin-bottom: 10%; }
+  .error404 ul h3 {
+    font-size: 30px;
+    text-align: center; }
+  .error404 ul div {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 1.5; }
+    .error404 ul div li {
+      font-size: 25px;
+      text-align: justify; }
+
 .bg-body-navbar {
   background-color: #2D4262; }
 
@@ -682,7 +706,11 @@ footer {
     margin-bottom: 10px;
     font-size: 18px; }
     .messageArea textarea {
-      height: 85%; } }
+      height: 85%; }
+  .error404 div img {
+    margin-left: 23%; }
+  .error404 ul div {
+    margin-left: 36%; } }
 
 @media (max-width: 426px) {
   header {
@@ -953,4 +981,19 @@ footer {
     margin-bottom: -75px; }
     .messageArea textarea {
       font-size: 18px;
-      height: 70%; } }
+      height: 70%; }
+  .error404 {
+    height: 825px; }
+    .error404 h1 {
+      font-size: 40px; }
+    .error404 h2 {
+      font-size: 25px; }
+    .error404 div img {
+      margin-left: 10%;
+      width: 80%; }
+    .error404 ul h3 {
+      font-size: 15px; }
+    .error404 ul div {
+      margin-left: 37%; }
+      .error404 ul div li {
+        font-size: 12px; } }
