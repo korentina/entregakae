@@ -45,6 +45,9 @@
     width: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
+    height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
     @include grid-categoria(repeat(4,1fr), none, none, 1.875rem);
     text-align: center;
     div{

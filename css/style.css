@@ -279,6 +279,9 @@ footer {
   width: 100%;
   margin-top: 5%;
   margin-bottom: 10%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: none;
@@ -883,8 +886,6 @@ footer {
   .listaArticulos {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px; }
-    .listaArticulos div li img {
-      height: 400px; }
     .listaArticulos div p button img {
       width: 9px;
       height: 9px; }
