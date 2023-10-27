@@ -275,19 +275,20 @@ footer {
 
 .listaArticulos {
   width: 100%;
+  margin-top: 5%;
+  margin-bottom: 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: none;
   align-content: none;
   gap: 1.875rem;
-  margin-top: 3%;
-  padding-bottom: 10%;
   text-align: center; }
   .listaArticulos div li {
-    list-style: none; }
+    list-style: none;
+    height: auto; }
     .listaArticulos div li img {
       width: 100%;
-      height: 21.875rem;
+      height: auto;
       object-fit: contain; }
       .listaArticulos div li img:hover {
         transform: scale(1.03); }
@@ -881,7 +882,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px; }
     .listaArticulos div li img {
-      height: 300px; }
+      height: 400px; }
     .listaArticulos div p button img {
       width: 9px;
       height: 9px; }
