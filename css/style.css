@@ -280,8 +280,8 @@ footer {
   justify-content: none;
   align-content: none;
   gap: 1.875rem;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  margin-top: 3%;
+  padding-bottom: 10%;
   text-align: center; }
   .listaArticulos div li {
     list-style: none; }
@@ -658,8 +658,6 @@ footer {
       font-size: 11px; }
   .listaArticulos {
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 0px;
-    padding-bottom: 50px;
     gap: 10px;
     font-size: 11px; }
     .listaArticulos div p img {
@@ -881,8 +879,6 @@ footer {
     grid-row-end: none; }
   .listaArticulos {
     grid-template-columns: repeat(1, 1fr);
-    padding-top: 0px;
-    padding-bottom: 20px;
     gap: 20px; }
     .listaArticulos div li img {
       height: 300px; }
