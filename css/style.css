@@ -23,7 +23,7 @@ header {
   background-color: #FFFAF5;
   display: grid;
   width: 100%;
-  height: 1200px;
+  height: 1500px;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr); }
   .portada h1 {
@@ -42,7 +42,7 @@ header {
     grid-column-end: 13;
     order: 1;
     width: 100%;
-    height: 1200px;
+    height: 1500px;
     object-fit: cover; }
 
 .text-focus-in {
@@ -85,10 +85,10 @@ header {
 
 .categoria1, .categoria2, .categoria4, .categoria3 {
   width: 100%;
-  height: 600px;
+  height: 900px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 60px); }
+  grid-template-rows: repeat(10, 90px); }
   .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -109,7 +109,7 @@ header {
   order: 1; }
   .categoria1a img, .categoria2a img, .categoria4a img, .categoria3a img {
     width: 100%;
-    height: 600px;
+    height: 900px;
     object-fit: cover; }
 
 .categoria1b, .categoria2b, .categoria4b, .categoria3b {
@@ -123,7 +123,7 @@ header {
   grid-template-rows: 1fr 1fr 1fr; }
   .categoria1b li img, .categoria2b li img, .categoria4b li img, .categoria3b li img {
     width: 100%;
-    height: 300px;
+    height: 450px;
     object-fit: cover; }
 
 .categoria2, .categoria4 {
@@ -216,7 +216,7 @@ footer {
 
 .mainCategoria {
   width: 100%;
-  height: 25vh;
+  height: auto;
   text-align: center;
   padding-top: 2%;
   display: grid;
@@ -280,7 +280,7 @@ footer {
   justify-content: none;
   align-content: none;
   gap: 1.875rem;
-  padding-top: 70px;
+  padding-top: 30px;
   padding-bottom: 70px;
   text-align: center; }
   .listaArticulos div li {
@@ -524,7 +524,7 @@ footer {
     margin: 0 5px 0 15px; }
 
 .error404 {
-  padding-top: 5%; }
+  padding-top: 3%; }
   .error404 h1 {
     font-size: 80px;
     color: #2D4262;
@@ -533,19 +533,19 @@ footer {
     font-size: 50px;
     text-align: center; }
   .error404 div img {
-    margin-left: 33%;
-    margin-bottom: 10%; }
+    display: block;
+    margin: auto;
+    margin-bottom: 5%; }
   .error404 ul h3 {
     font-size: 30px;
     text-align: center; }
   .error404 ul div {
-    margin-left: 40%;
     margin-top: 20px;
     margin-bottom: 50px;
     line-height: 1.5; }
     .error404 ul div li {
       font-size: 25px;
-      text-align: justify; }
+      text-align: center; }
 
 .bg-body-navbar {
   background-color: #2D4262; }
@@ -658,7 +658,7 @@ footer {
       font-size: 11px; }
   .listaArticulos {
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 30px;
+    padding-top: 0px;
     padding-bottom: 50px;
     gap: 10px;
     font-size: 11px; }
@@ -706,11 +706,7 @@ footer {
     margin-bottom: 10px;
     font-size: 18px; }
     .messageArea textarea {
-      height: 85%; }
-  .error404 div img {
-    margin-left: 23%; }
-  .error404 ul div {
-    margin-left: 36%; } }
+      height: 85%; } }
 
 @media (max-width: 426px) {
   header {
@@ -885,7 +881,7 @@ footer {
     grid-row-end: none; }
   .listaArticulos {
     grid-template-columns: repeat(1, 1fr);
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 20px;
     gap: 20px; }
     .listaArticulos div li img {
@@ -983,17 +979,15 @@ footer {
       font-size: 18px;
       height: 70%; }
   .error404 {
-    height: 825px; }
+    height: 920px;
+    margin-top: 5%; }
     .error404 h1 {
       font-size: 40px; }
     .error404 h2 {
       font-size: 25px; }
     .error404 div img {
-      margin-left: 10%;
-      width: 80%; }
+      margin-bottom: 20px; }
     .error404 ul h3 {
       font-size: 15px; }
-    .error404 ul div {
-      margin-left: 37%; }
-      .error404 ul div li {
-        font-size: 12px; } }
+    .error404 ul div li {
+      font-size: 12px; } }

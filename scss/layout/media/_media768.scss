@@ -140,7 +140,7 @@
     }
     .listaArticulos{
         grid-template-columns: repeat(3,1fr);
-        padding-top: 30px;
+        padding-top: 0px;
         padding-bottom: 50px;
         gap: 10px;
         font-size: map-get($font-size, xxs);
@@ -219,16 +219,4 @@
             height: 85%
         }
     }
-    .error404{
-            div{
-            img{
-                margin-left: 23%;
-            }
-        }
-        ul{
-            div{
-                margin-left: 36%;
-                }
-            }
-        }
 }
