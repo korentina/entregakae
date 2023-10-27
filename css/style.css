@@ -218,7 +218,8 @@ footer {
   width: 100%;
   height: auto;
   text-align: center;
-  padding-top: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   justify-content: start;
@@ -228,7 +229,8 @@ footer {
     list-style: none;
     gap: 5px;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    padding-top: 3%; }
     .mainCategoria li img {
       width: 100%;
       height: 80%;
