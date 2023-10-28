@@ -11,6 +11,12 @@
         img{
             height: 495px;
         }
+        h1{
+            font-size: map-get($font-size, md);
+        }
+        button{
+            font-size: map-get($font-size, xxs);
+        }
     }
     .categoria1{
         height: 246px;
@@ -183,8 +189,15 @@
     }
     .listaArticulos{
         grid-template-columns: repeat(1,1fr);
+        padding-top: 20px;
+        padding-bottom: 20px;
         gap: 20px;
         div{
+            li{
+                img{
+                    height: 300px;
+                }
+            }
             p{
                 button{
                     img{
@@ -289,9 +302,9 @@
             font-size: map-get($font-size, xxs);
         }
     }
-    .responsive-cell-block.M {
+    .cell-block.M {
         width: 100%;
-        height: 95%;
+        height: 80%;
         padding-top: 10px;
         padding-right: 20px;
         padding-left: 20px;
@@ -300,23 +313,23 @@
             margin-bottom: 10px;
         }
     }
-    .responsive-cell-block.S {
+    .cell-block.S {
         width: 100%;
-    }
-    .datosContacto{
-        position:absolute;
-        bottom:65px;right:50px;
+        height: 70;
     }
     .messageArea{
-        margin-bottom: -75px;
+        margin-bottom: 5%;
         textarea{
             font-size: map-get($font-size, sm);
             height: 70%;
         }
     }
+    .datosContacto{
+        position:absolute;
+        bottom:6.5%;right:3%;
+    }
     .error404{
-        height: 920px;
-        margin-top: 5%;
+        height: 825px;
         h1{
             font-size: 40px;
         }
@@ -325,7 +338,8 @@
         }
         div{
             img{
-                margin-bottom: 20px;
+                margin-left: 10%;
+                width: 80%;
             }
         }
         ul{
@@ -333,6 +347,7 @@
                 font-size: 15px;
             }
             div{
+                margin-left: 37%;
                 li{
                     font-size: 12px;
                 }

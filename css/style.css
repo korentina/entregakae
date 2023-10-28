@@ -382,40 +382,35 @@ footer {
 
 .consultas {
   font-family: sans-serif;
-  position: relative; }
-  .consultas .responsive-container-block {
-    min-height: 100px;
-    height: 700px;
+  position: relative;
+  height: 1050px; }
+  .consultas .container-block {
+    height: 680px;
     width: 100%;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: flex-start;
+    flex-direction: row;
     align-content: center;
     justify-content: center; }
-  .consultas .responsive-container-block.bigContainer {
-    padding: 20px;
+  .consultas .container-block.bigContainer {
+    margin-top: 5%;
+    margin-bottom: 5%;
     height: 100%; }
-  .consultas .responsive-container-block.Container {
+  .consultas .container-block.Container {
     max-width: 1320px;
     margin-top: 50px;
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto; }
 
-.responsive-cell-block.S {
+.cell-block.S {
   width: 50%; }
+  .cell-block.S img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%; }
 
-.mainImg {
-  width: 100%;
-  object-fit: cover;
-  height: 100%; }
-
-.responsive-cell-block.M {
+.cell-block.M {
   width: 50%;
   height: 100%;
   background-color: #333333;
@@ -423,17 +418,9 @@ footer {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px; }
-  .responsive-cell-block.M p {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    line-height: 25px;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px; }
-  .responsive-cell-block.M .titulo-caja.descripcion {
+  .cell-block.M p {
+    line-height: 25px; }
+  .cell-block.M .titulo-caja.descripcion {
     color: white;
     font-size: 35px;
     line-height: 48px;
@@ -447,8 +434,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
   .formTable a {
     color: white;
     padding-top: 20px;
@@ -468,18 +454,12 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 0px;
-  margin-right: 0px;
   margin-bottom: 30px;
-  margin-left: 0px;
   width: 100%; }
   .firstRow div {
     width: 49%; }
     .firstRow div p {
-      margin-top: 0px;
-      margin-right: 0px;
       margin-bottom: 10px;
-      margin-left: 0px;
       color: white; }
   .firstRow input {
     width: 100%;
@@ -490,32 +470,21 @@ footer {
 
 .messageArea {
   width: 100%;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 50px;
-  margin-left: 0px; }
+  margin-bottom: 10%; }
   .messageArea textarea {
     width: 100%;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     height: 100%; }
   .messageArea p {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    margin-left: 0px;
     color: white; }
 
 .datosContacto {
   position: absolute;
-  bottom: 7%;
-  right: 18%;
+  bottom: 28%;
+  right: 20%;
   background: #50505a;
   color: #fff;
   width: 320px;
@@ -591,6 +560,8 @@ footer {
     height: 900px; }
     .portada img {
       height: 900px; }
+    .portada h1 {
+      font-size: 30px; }
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
@@ -613,11 +584,7 @@ footer {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
     .categoria3 button {
-      font-size: 16px;
-      grid-column-start: 3;
-      grid-column-end: 4;
-      grid-row-start: 8;
-      grid-row-end: 10; }
+      font-size: 16px; }
   .categoria3a img {
     height: 450px; }
   .categoria3b li img {
@@ -663,6 +630,8 @@ footer {
       font-size: 11px; }
   .listaArticulos {
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    padding-bottom: 50px;
     gap: 10px;
     font-size: 11px; }
     .listaArticulos div p img {
@@ -685,31 +654,44 @@ footer {
   .sucursales h1 {
     font-size: 30px; }
   .consultas {
-    height: 1500px;
-    padding-bottom: 5%; }
-  .responsive-cell-block.M {
+    height: 1600px;
+    padding-bottom: 5%;
+    padding-top: 0px; }
+  .container-block.bigContainer {
+    margin-top: 0%;
+    margin-bottom: 5%; }
+  .container-block.Container {
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    margin-top: 0%; }
+  .cell-block.M {
     width: 80%;
-    height: 100%; }
+    height: 80%; }
   .firstRow {
     flex-direction: column; }
     .firstRow div input {
       width: 203%;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 10px;
-      margin-left: 0px; }
-  .responsive-cell-block.S {
+      margin-bottom: 10px; }
+  .cell-block.S {
     width: 80%;
-    height: 100%; }
+    height: 80%; }
   .datosContacto {
     position: absolute;
-    bottom: 60px;
-    right: 70px; }
+    bottom: 7%;
+    right: 7%; }
   .messageArea {
     margin-bottom: 10px;
     font-size: 18px; }
     .messageArea textarea {
-      height: 85%; } }
+      height: 85%; }
+  .error404 div img {
+    margin-left: 23%; }
+  .error404 ul div {
+    margin-left: 36%; } }
 
 @media (max-width: 426px) {
   header {
@@ -721,6 +703,10 @@ footer {
     height: 495px; }
     .portada img {
       height: 495px; }
+    .portada h1 {
+      font-size: 20px; }
+    .portada button {
+      font-size: 11px; }
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
@@ -880,7 +866,11 @@ footer {
     grid-row-end: none; }
   .listaArticulos {
     grid-template-columns: repeat(1, 1fr);
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 20px; }
+    .listaArticulos div li img {
+      height: 300px; }
     .listaArticulos div p button img {
       width: 9px;
       height: 9px; }
@@ -953,36 +943,39 @@ footer {
     font-size: 11px; }
   .formTable a {
     font-size: 11px; }
-  .responsive-cell-block.M {
+  .cell-block.M {
     width: 100%;
-    height: 95%;
+    height: 80%;
     padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px; }
-    .responsive-cell-block.M .titulo-caja.descripcion {
+    .cell-block.M .titulo-caja.descripcion {
       font-size: 20px;
       margin-bottom: 10px; }
-  .responsive-cell-block.S {
-    width: 100%; }
-  .datosContacto {
-    position: absolute;
-    bottom: 65px;
-    right: 50px; }
+  .cell-block.S {
+    width: 100%;
+    height: 70; }
   .messageArea {
-    margin-bottom: -75px; }
+    margin-bottom: 5%; }
     .messageArea textarea {
       font-size: 18px;
       height: 70%; }
+  .datosContacto {
+    position: absolute;
+    bottom: 6.5%;
+    right: 3%; }
   .error404 {
-    height: 920px;
-    margin-top: 5%; }
+    height: 825px; }
     .error404 h1 {
       font-size: 40px; }
     .error404 h2 {
       font-size: 25px; }
     .error404 div img {
-      margin-bottom: 20px; }
+      margin-left: 10%;
+      width: 80%; }
     .error404 ul h3 {
       font-size: 15px; }
-    .error404 ul div li {
-      font-size: 12px; } }
+    .error404 ul div {
+      margin-left: 37%; }
+      .error404 ul div li {
+        font-size: 12px; } }
