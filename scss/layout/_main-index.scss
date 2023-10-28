@@ -3,19 +3,9 @@
     background-color: $bg-body;
     display: grid;
     width: 100%;
-    height: 1500px;
+    height: auto;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(12,1fr);
-    h1 {
-        font-size: map-get($font-size, xxl);
-        font-family: $font-portada;
-        grid-row-start: 8;
-        grid-row-end: 10;
-        grid-column-start: 5;
-        grid-column-end: 9;
-        order: 2;
-        text-align: center;
-    }
     img {
         grid-row-start: 1;
         grid-row-end: 13;
@@ -23,7 +13,7 @@
         grid-column-end: 13;
         order: 1;
         width: 100%;
-        height: 1500px;
+        height: auto;
         object-fit: cover;
     }
 }
@@ -59,7 +49,7 @@
 .buttonPrincipal{
     font-size:  map-get($font-size, md);
     font-family: $font-texto;
-    background-color: black;
+    background: radial-gradient(circle, rgba(224,224,223,1) 0%, rgba(200,199,217,1) 86%);
     color: aliceblue;
     grid-row-start: 11;
     grid-row-end: 12;
@@ -67,8 +57,15 @@
     grid-column-end: 8;
     text-align: center;
     order: 3;
+    border-radius: 25%;
+    border:none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
     &:hover{
         box-shadow: 0px 0px .625rem #2D4262;
+    }
+    a{
+        align-items: center;
     }
 }
 .categoria1{
@@ -85,7 +82,8 @@
         grid-row-end: 9;
         order: 3;
         a {
-            color: aliceblue;
+            color: black;
+            text-decoration-line: none;
         }
     }
 }

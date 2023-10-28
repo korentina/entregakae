@@ -7,9 +7,6 @@
         img{
             height: 900px;
         }
-        h1{
-            font-size: map-get($font-size,xl);
-        }
     }
     .categoria1{
         height: 450px;
@@ -54,6 +51,10 @@
         grid-template-rows: repeat(10,45px);
         button{
             font-size: map-get($font-size,xs);
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 8;
+            grid-row-end: 10;
         }
     }
     .categoria3a{

@@ -23,18 +23,9 @@ header {
   background-color: #FFFAF5;
   display: grid;
   width: 100%;
-  height: 1500px;
+  height: auto;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr); }
-  .portada h1 {
-    font-size: 50px;
-    font-family: "Averia Serif Libre", cursive;
-    grid-row-start: 8;
-    grid-row-end: 10;
-    grid-column-start: 5;
-    grid-column-end: 9;
-    order: 2;
-    text-align: center; }
   .portada img {
     grid-row-start: 1;
     grid-row-end: 13;
@@ -42,7 +33,7 @@ header {
     grid-column-end: 13;
     order: 1;
     width: 100%;
-    height: 1500px;
+    height: auto;
     object-fit: cover; }
 
 .text-focus-in {
@@ -72,16 +63,21 @@ header {
 .buttonPrincipal, .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
   font-size: 20px;
   font-family: "PT Sans", sans-serif;
-  background-color: black;
+  background: radial-gradient(circle, #e0e0df 0%, #c8c7d9 86%);
   color: aliceblue;
   grid-row-start: 11;
   grid-row-end: 12;
   grid-column-start: 6;
   grid-column-end: 8;
   text-align: center;
-  order: 3; }
+  order: 3;
+  border-radius: 25%;
+  border: none;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7); }
   .buttonPrincipal:hover, .categoria1 button:hover, .categoria2 button:hover, .categoria4 button:hover, .categoria3 button:hover {
     box-shadow: 0px 0px .625rem #2D4262; }
+  .buttonPrincipal a, .categoria1 button a, .categoria2 button a, .categoria4 button a, .categoria3 button a {
+    align-items: center; }
 
 .categoria1, .categoria2, .categoria4, .categoria3 {
   width: 100%;
@@ -96,7 +92,8 @@ header {
     grid-row-end: 9;
     order: 3; }
     .categoria1 button a, .categoria2 button a, .categoria4 button a, .categoria3 button a {
-      color: aliceblue; }
+      color: black;
+      text-decoration-line: none; }
 
 .categoria1a, .categoria2a, .categoria4a, .categoria3a {
   font-family: "PT Sans", sans-serif;
@@ -517,8 +514,8 @@ footer {
 
 .datosContacto {
   position: absolute;
-  bottom: 60px;
-  right: 55px;
+  bottom: 7%;
+  right: 18%;
   background: #50505a;
   color: #fff;
   width: 320px;
@@ -594,8 +591,6 @@ footer {
     height: 900px; }
     .portada img {
       height: 900px; }
-    .portada h1 {
-      font-size: 30px; }
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
@@ -618,7 +613,11 @@ footer {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
     .categoria3 button {
-      font-size: 16px; }
+      font-size: 16px;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 8;
+      grid-row-end: 10; }
   .categoria3a img {
     height: 450px; }
   .categoria3b li img {
@@ -722,10 +721,6 @@ footer {
     height: 495px; }
     .portada img {
       height: 495px; }
-    .portada h1 {
-      font-size: 20px; }
-    .portada button {
-      font-size: 11px; }
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
