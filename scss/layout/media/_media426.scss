@@ -21,10 +21,6 @@
     .categoria1{
         height: 246px;
         grid-template-rows: repeat(10,24.6px);
-        button{
-            font-size: map-get($font-size, xxs);
-            @include grid-cat(5, 7, 7, 9);
-        }
     }
     .categoria1a{
         @include grid-cat(1, 11, 1, 11);
@@ -39,11 +35,7 @@
     .categoria2{
         height: 246px;
         grid-template-rows: repeat(10,24.6px);
-        button{
-            font-size: map-get($font-size, xxs);
-            @include grid-cat(5, 7, 7, 9);
         }
-    }
     .categoria2a{
         @include grid-cat(1, 11, 1, 11);
         order: 1;
@@ -58,10 +50,7 @@
     .categoria3{
         height: 246px;
         grid-template-rows: repeat(10,24.6px);
-        button{
-            font-size: 10px;
-            @include grid-cat(5, 7, 7, 9);
-        }
+        
     }
     .categoria3a{
         @include grid-cat(1, 11, 1, 11);
@@ -77,10 +66,6 @@
     .categoria4{
         height: 246px;
         grid-template-rows: repeat(10,24.6px);
-        button{
-            font-size: map-get($font-size, xxs);
-            @include grid-cat(5, 7, 7, 9);
-        }
     }
     .categoria4a{
         @include grid-cat(1, 11, 1, 11);
@@ -351,7 +336,7 @@
                 li{
                     font-size: 12px;
                 }
-                }
             }
         }
+    }
 }

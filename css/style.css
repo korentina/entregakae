@@ -60,40 +60,15 @@ header {
     filter: blur(0px);
     opacity: 1; } }
 
-.buttonPrincipal, .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
-  font-size: 20px;
-  font-family: "PT Sans", sans-serif;
-  background: radial-gradient(circle, #e0e0df 0%, #c8c7d9 86%);
-  color: aliceblue;
-  grid-row-start: 11;
-  grid-row-end: 12;
-  grid-column-start: 6;
-  grid-column-end: 8;
-  text-align: center;
-  order: 3;
-  border-radius: 25%;
-  border: none;
-  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7); }
-  .buttonPrincipal:hover, .categoria1 button:hover, .categoria2 button:hover, .categoria4 button:hover, .categoria3 button:hover {
-    box-shadow: 0px 0px .625rem #2D4262; }
-  .buttonPrincipal a, .categoria1 button a, .categoria2 button a, .categoria4 button a, .categoria3 button a {
-    align-items: center; }
-
 .categoria1, .categoria2, .categoria4, .categoria3 {
   width: 100%;
   height: 900px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 90px); }
-  .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 9;
-    order: 3; }
-    .categoria1 button a, .categoria2 button a, .categoria4 button a, .categoria3 button a {
-      color: black;
-      text-decoration-line: none; }
+  .categoria1 a, .categoria2 a, .categoria4 a, .categoria3 a {
+    color: black;
+    text-decoration-line: none; }
 
 .categoria1a, .categoria2a, .categoria4a, .categoria3a {
   font-family: "PT Sans", sans-serif;
@@ -129,12 +104,6 @@ header {
   grid-row-start: 8;
   grid-row-end: 9;
   order: 3; }
-  .categoria2 button, .categoria4 button {
-    grid-column-start: 8;
-    grid-column-end: 9;
-    grid-row-start: 8;
-    grid-row-end: 9;
-    order: 3; }
 
 .categoria2a, .categoria4a {
   grid-column-start: 6;
@@ -565,8 +534,6 @@ footer {
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
-    .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
-      font-size: 16px; }
   .categoria1a img, .categoria2a img, .categoria4a img, .categoria3a img {
     height: 450px; }
   .categoria1b li img, .categoria2b li img, .categoria4b li img, .categoria3b li img {
@@ -592,8 +559,6 @@ footer {
   .categoria4 {
     height: 450px;
     grid-template-rows: repeat(10, 45px); }
-    .categoria4 button {
-      font-size: 16px; }
   .categoria4a img {
     height: 450px; }
   .categoria4b li img {
@@ -710,12 +675,6 @@ footer {
   .categoria1, .categoria2, .categoria4, .categoria3 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
-    .categoria1 button, .categoria2 button, .categoria4 button, .categoria3 button {
-      font-size: 11px;
-      grid-column-start: 5;
-      grid-column-end: 7;
-      grid-row-start: 7;
-      grid-row-end: 9; }
   .categoria1a, .categoria2a, .categoria4a, .categoria3a {
     grid-column-start: 1;
     grid-column-end: 11;
@@ -729,12 +688,6 @@ footer {
   .categoria2, .categoria4 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
-    .categoria2 button, .categoria4 button {
-      font-size: 11px;
-      grid-column-start: 5;
-      grid-column-end: 7;
-      grid-row-start: 7;
-      grid-row-end: 9; }
   .categoria2a, .categoria4a {
     grid-column-start: 1;
     grid-column-end: 11;
@@ -749,12 +702,6 @@ footer {
   .categoria3 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
-    .categoria3 button {
-      font-size: 10px;
-      grid-column-start: 5;
-      grid-column-end: 7;
-      grid-row-start: 7;
-      grid-row-end: 9; }
   .categoria3a {
     grid-column-start: 1;
     grid-column-end: 11;
@@ -769,12 +716,6 @@ footer {
   .categoria4 {
     height: 246px;
     grid-template-rows: repeat(10, 24.6px); }
-    .categoria4 button {
-      font-size: 11px;
-      grid-column-start: 5;
-      grid-column-end: 7;
-      grid-row-start: 7;
-      grid-row-end: 9; }
   .categoria4a {
     grid-column-start: 1;
     grid-column-end: 11;
