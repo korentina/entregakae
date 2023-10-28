@@ -554,7 +554,8 @@ footer {
     line-height: 1.5; }
     .error404 ul div li {
       font-size: 25px;
-      text-align: center; }
+      text-align: center;
+      list-style: none; }
 
 .bg-body-navbar {
   background-color: #2D4262; }
@@ -722,9 +723,7 @@ footer {
     .messageArea textarea {
       height: 85%; }
   .error404 div img {
-    margin-left: 23%; }
-  .error404 ul div {
-    margin-left: 36%; } }
+    margin-left: 23%; } }
 
 @media (max-width: 426px) {
   header {
@@ -974,7 +973,7 @@ footer {
     bottom: 6.5%;
     right: 3%; }
   .error404 {
-    height: 825px; }
+    height: 700px; }
     .error404 h1 {
       font-size: 40px; }
     .error404 h2 {
@@ -984,7 +983,5 @@ footer {
       width: 80%; }
     .error404 ul h3 {
       font-size: 15px; }
-    .error404 ul div {
-      margin-left: 37%; }
-      .error404 ul div li {
-        font-size: 12px; } }
+    .error404 ul div li {
+      font-size: 12px; } }
