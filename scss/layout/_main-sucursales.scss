@@ -31,13 +31,20 @@
     }
     iframe{
         padding-left: 2.5rem;
-        width: 37.5rem;
+        width: 38%;
         height: 28.125rem;
-        padding: 20px;
+        padding-top: 50px;
+    }
+    img{
+        height: 400px;
     }
 }
 
 .campana{
     padding-top: 5%;
-    @extend .aranguren
+    @extend .aranguren;
+    img{
+        width: 300px;
+        object-fit: cover;
+    }
 }

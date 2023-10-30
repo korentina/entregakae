@@ -231,4 +231,26 @@
             }
         }
     }
+    .aranguren{
+        img{
+            padding-left: 2.5rem;
+            width: 94.5%;
+            height: 28.125rem;
+            object-fit: cover;
+        }
+        iframe{
+            width: 94.5%;
+        }
+    }
+    .campana{
+        padding-top: 5%;
+        img{
+            padding-left: 2.5rem;
+            width: 94.5%;
+            height: 28.125rem;
+        }
+        iframe{
+            width: 94.5%;
+        }
+    }
 }

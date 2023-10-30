@@ -372,12 +372,18 @@ footer {
 
 .aranguren iframe, .campana iframe {
   padding-left: 2.5rem;
-  width: 37.5rem;
+  width: 38%;
   height: 28.125rem;
-  padding: 20px; }
+  padding-top: 50px; }
+
+.aranguren img, .campana img {
+  height: 400px; }
 
 .campana {
   padding-top: 5%; }
+  .campana img {
+    width: 300px;
+    object-fit: cover; }
 
 .nosotros h1 {
   padding-top: 2%;
@@ -723,7 +729,22 @@ footer {
     .messageArea textarea {
       height: 85%; }
   .error404 div img {
-    margin-left: 23%; } }
+    margin-left: 23%; }
+  .aranguren img, .campana img {
+    padding-left: 2.5rem;
+    width: 94.5%;
+    height: 28.125rem;
+    object-fit: cover; }
+  .aranguren iframe, .campana iframe {
+    width: 94.5%; }
+  .campana {
+    padding-top: 5%; }
+    .campana img {
+      padding-left: 2.5rem;
+      width: 94.5%;
+      height: 28.125rem; }
+    .campana iframe {
+      width: 94.5%; } }
 
 @media (max-width: 426px) {
   header {
@@ -925,22 +946,6 @@ footer {
     line-height: 1.2; }
     .info li a {
       font-size: 11px; }
-  .sucursales {
-    padding: 30px;
-    justify-content: space-between;
-    padding-left: 1.25rem; }
-    .sucursales iframe {
-      width: 100%;
-      height: 18.75rem;
-      padding: 5%; }
-    .sucursales h2 {
-      font-size: 20px; }
-    .sucursales h3 {
-      padding-left: 0;
-      font-size: 18px; }
-    .sucursales li {
-      font-size: 11px;
-      padding-top: 5px; }
   .nosotros h1 {
     font-size: 20px; }
   .nosotros p {
@@ -984,4 +989,25 @@ footer {
     .error404 ul h3 {
       font-size: 15px; }
     .error404 ul div li {
-      font-size: 12px; } }
+      font-size: 12px; }
+  .sucursales {
+    padding-top: 30px;
+    justify-content: space-between;
+    padding-left: 1.25rem; }
+    .sucursales iframe {
+      width: 100%; }
+    .sucursales h2 {
+      font-size: 20px; }
+    .sucursales h3 {
+      padding-left: 0;
+      font-size: 18px; }
+    .sucursales li {
+      font-size: 11px;
+      padding-top: 5px; }
+  .maparanguren img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; }
+  .mapcampana img {
+    width: 100%;
+    height: 200px; } }
